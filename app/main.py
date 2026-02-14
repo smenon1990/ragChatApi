@@ -15,7 +15,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 # CORS
 origins = [
     "http://localhost:5173",
-    "https://rag-ui-production.up.railway.app",
+    "https://ragchatui-production.up.railway.app",
 ]
 app.add_middleware(
     CORSMiddleware,
