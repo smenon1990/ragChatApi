@@ -48,7 +48,7 @@ def query_rag(question: str) -> str:
     prompt = f"""
 You are a helpful assistant.
 Answer the question using ONLY the context below.
-If the answer is not in the context, say "I don't know".
+If the answer is not in the context, say "Sorry i coudn't find the information you are looking for.Anything else i could help you with ?".
 
 Context:
 {context}
