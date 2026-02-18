@@ -46,7 +46,7 @@ def query_rag(question: str) -> str:
     context = "\n\n".join(doc.page_content for doc in docs)
 
     prompt = f"""
-You are a helpful assistant.
+You are a helpful assistant. Respond in not more than 40 words
 Answer the question using ONLY the context below.
 If the answer is not in the context, say "Sorry i coudn't find the information you are looking for.Anything else i could help you with ?".
 
